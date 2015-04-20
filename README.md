@@ -9,3 +9,6 @@ Implement an elevator simulator.
 * Once requested floor is reached, elevator stops the engine and opens the door
 * The floors are visited in order
 * The direction of the ride does not change until the highest/lowest requested floor is reached
+* The elevator can be switched to a "maintenance mode" - it goes to the ground floor,
+  opens the doors and remains in this state until it's switched back to the "operational mode".
+  In the "maintenance mode" the requests are not accepted. 
